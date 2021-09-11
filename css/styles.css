@@ -1,0 +1,355 @@
+
+body {
+  text-align: center;
+  box-sizing: border-box;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat";
+}
+
+p {
+  color: #8f8f8f;
+}
+
+.container-fluid {
+  padding: 7% 15%;
+}
+
+
+/************************************************************* Main Headings *******************************************************/
+
+.big-heading{
+  font-family: "Montserrat";
+  font-size: 4rem;
+  line-height: 1.5;
+}
+
+/************************************************************* contact header *******************************************************/
+
+.contact-header{
+  padding: 0.5% 1%;
+  display: flex;
+  justify-content: space-between;
+  text-align: left;
+  box-sizing: border-box;
+}
+
+.cont-cont{
+  display: flex;
+}
+
+.cont-icons{
+  display: flex;
+}
+
+.cont1{
+  padding: 10px;
+  margin-right: 40px;
+  background-color: #FFC288;
+  border-radius: 20px;
+}
+
+.insta{
+  color: #FF2626;
+}
+
+.number{
+  font-size: 20px;
+  line-height: 0.8;
+}
+
+.header-email{
+  text-decoration: none;
+  color: #FF6701;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.header-email:hover{
+  color: #7D1935;
+}
+
+.social-icon-header{
+  margin: 0 20px;
+  box-sizing: border-box;
+}
+
+.social-icon-header:hover{
+  color: #7D1935;
+}
+
+/************************************************************* Sections*******************************************************/
+
+.colored-section {
+  /* background-color: grey; */
+  background-color: #FF6701;
+  /* background-color: #ff4c68; */
+  color: white;
+}
+
+.white-section {
+  background-color: white;
+}
+
+
+/************************************************************ title section *******************************************************/
+
+#title .container-fluid {
+  color: white;
+  text-align: left;
+  padding: 3% 15% 7%;
+}
+
+.title-content {
+  text-align: center;
+}
+
+.title-paragraph{
+  color: white;
+  font-family: Ubuntu;
+  margin: 0;
+}
+
+.title-md-heading{
+  font-size: 2.5rem;
+  margin: 0;
+}
+
+
+/************************************************************* Navigation bar *******************************************************/
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu';
+  font-size: 2rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+}
+
+/************************************************************* Download Buttons *******************************************************/
+
+.download-button {
+  margin: 5%;
+  font-size: 1.5rem;
+  padding: 0.5rem 2.5rem;
+  font-weight: 600;
+}
+
+.download-button:hover{
+  background-color: black;
+  color: white;
+  border-color: black;
+}
+
+
+/************************************************************* Title images *******************************************************/
+
+.title-image-parent{
+  position: relative;
+}
+
+.title-image {
+  position: absolute;
+  right: 25%;
+  width: 60%;
+  transform: rotate(30deg);
+}
+
+
+/**************************************************** features Section ***********************************************/
+
+#features {
+  position: relative;
+  z-index: 1;
+}
+
+.features-title {
+  line-height: 1.5;
+}
+
+.feature-box {
+  padding: 5%;
+}
+
+.feature-icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.feature-icon:hover {
+  color: #ff4c68;
+}
+
+
+/************************************************************* Testimonial section *******************************************************/
+
+#testimonials {
+  background-color: #ef8172;
+  color: white;
+}
+
+.testimonial-feedback {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testimonial-img {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#press {
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+
+/************************************************************* Pricing section *******************************************************/
+
+#pricing{
+    padding: 7% 10%;
+}
+
+.pricing-card-header {
+  line-height: 1.5;
+}
+
+.pricing-heading, .pricing-card-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+.pricing-paragraph{
+  color: white;
+}
+
+.pricing-cards{
+  color: black;
+}
+
+
+/************************************************************* CTA section *******************************************************/
+
+#CTA {
+  color: white;
+}
+
+/************************************************************* Footer section *******************************************************/
+
+.footer-icon {
+  margin: 2%;
+}
+
+.social-icon {
+  color: black;
+  margin: 0.5%;
+}
+
+.copyright {
+  font-weight: 400;
+}
+
+
+/************************************************************* MEDIA QUERY section *******************************************************/
+
+@media only screen and (max-width: 700px) {
+
+  body{
+  }
+
+  .container-fluid{
+    padding: 1% 4%;
+    margin: 0;
+  }
+
+  #title .container-fluid {
+    padding: 1% 4%;
+    padding-bottom: 15%;
+  }
+
+  .title-content{
+    text-align: left;
+  }
+
+  .big-heading{
+    text-align: left;
+    font-size: 2.5rem;
+  }
+
+  .title-md-heading{
+    font-size: 2rem;
+    padding-bottom: 1rem;
+  }
+
+  .title-paragraph{
+    font-size: 16px;
+    padding-bottom: 3rem;
+  }
+
+  .contact-header{
+    padding: 0.5% 1%;
+  }
+
+  .cont1{
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 20px;
+  }
+
+  .call-mail{
+    font-size: 12px;
+  }
+
+  .number{
+    font-size: 10px;
+  }
+
+  .header-email{
+    font-size: 10px;
+  }
+
+  .social-icon-header{
+    font-size: 5px;
+    margin: 0 2px;
+    padding-top: 20px;
+    box-sizing: border-box;
+  }
+
+  .navbar {
+    text-align: right;
+    padding-bottom: 3.5rem;
+  }
+
+  .download-button {
+    margin: 2%;
+    font-size: 1.5rem;
+    padding: 0.2rem 1.5rem;
+    font-weight: 600;
+  }
+
+  .nav-link{
+    font-size: 16px;
+  }
+
+}

@@ -1,0 +1,79 @@
+/* ############################################### commons ################################################### */
+
+p{
+  margin: 0;
+  padding: 0;
+  font-size: 1.2rem;
+}
+
+.container-fluid{
+  padding: 7% 15%;
+}
+
+.packages-heading {
+  font-family: "Ubuntu";
+}
+
+.sections{
+  padding: 7% 15%;
+  /* margin: 2% auto; */
+}
+
+.topic-container{
+  padding: 1%;
+  background-color: lightgrey;
+  border-radius: 10%;
+  margin: 1rem 0;
+
+}
+
+.card{
+  margin: 1rem 0;
+}
+
+.colored-section{
+  background-color: lightgrey;
+}
+
+.service{
+  font-family: Montserrat;
+}
+
+
+/* ############################################### title ################################################### */
+
+#top-section{
+  background-color: white;
+}
+
+.title{
+  text-align: center;
+}
+
+.title-heading {
+  font-family: Montserrat;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  margin-bottom: 7%;
+}
+
+.nav-btn {
+  background-color: #FF4C29;
+  color: white;
+  margin: 4% 5%;
+  border: none;
+  padding: 0.5rem 2.5rem;
+  font-weight: 500;
+}
+
+.nav-btn:hover{
+  background-color: #EE0000;
+  color: white;
+}
+
+.floating-btn{
+  color: red;
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+}
